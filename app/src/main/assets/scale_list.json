@@ -1,0 +1,106 @@
+[
+	{
+		"id": "1234567",
+		"name": "Ionian (Major)"
+	},
+	{
+		"id": "12b3456b7",
+		"name": "Dorian"
+	},
+	{
+		"id": "1b2b345b6b7",
+		"name": "Phrygian"
+	},
+	{
+		"id": "123#4567",
+		"name": "Lydian"
+	},
+	{
+		"id": "123456b7",
+		"name": "Mixolydian"
+	},
+	{
+		"id": "12b345b6b7",
+		"name": "Aeolian (Natural Minor)"
+	},
+	{
+		"id": "1b2b34b5b6b7",
+		"name": "Locrian"
+	},
+	{
+		"id": "12b345b67",
+		"name": "Harmonic Minor"
+	},
+	{
+		"id": "1b2b34b56b7",
+		"name": "Locrian 6"
+	},
+	{
+		"id": "1234#567",
+		"name": "Ionian #5 (Ionian Augmented)"
+	},
+	{
+		"id": "12b3#456b7",
+		"name": "Dorian #4"
+	},
+	{
+		"id": "1b2345b6b7",
+		"name": "Phrygian 3 (Phrygian Dominant)"
+	},
+	{
+		"id": "1#23#4567",
+		"name": "Lydian #2"
+	},
+	{
+		"id": "12b34567",
+		"name": "Melodic Minor"
+	},
+	{
+		"id": "1b2b3456b7",
+		"name": "Phrygian 6 (Dorian b2)"
+	},
+	{
+		"id": "123#4#567",
+		"name": "Lydian #5 (Lydian Augmented)"
+	},
+	{
+		"id": "123#456b7",
+		"name": "Lydian b7 (Lydian Dominant)"
+	},
+	{
+		"id": "12345b6b7",
+		"name": "Aeolian 3 (Aeolian Dominant)"
+	},
+	{
+		"id": "12b34b5b6b7",
+		"name": "Locrian 2"
+	},
+	{
+		"id": "1b2b3b4b5b6b7",
+		"name": "Locrian b4 (Altered Dominant)"
+	},
+	{
+		"id": "12345#67",
+		"name": "Bebop Dominant"
+	},
+	{
+		"id": "1b2345b67",
+		"name": "Gypsy Major (Byzantine)"
+	},
+	{
+		"id": "12b34b5b67",
+		"name": "Gypsy Minor (Hungarian Minor)"
+	},
+	{
+		"id": "12b3#45b6b7",
+		"name": "Hungarian Gypsy"
+	},
+	{
+		"id": "1b2b34567",
+		"name": "Neapolitan Major"
+	},
+	{
+		"id": "1b2b345b67",
+		"name": "Neapolitan Minor"
+	}
+]

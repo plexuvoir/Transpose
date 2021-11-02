@@ -2,6 +2,7 @@ package com.example.transpose;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText editKey;
     private TextView txtResult, txtTranspose;
-    private Button btnUp, btnDown, btnReset;
+    private Button btnUp, btnDown, btnReset, btnScale;
     public static List<String> key = new ArrayList<>();
     boolean isDefined = false;
     static int listSize;
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btnUp = findViewById(R.id.btn_up);
         btnDown = findViewById(R.id.btn_down);
         btnReset = findViewById(R.id.btn_reset);
+        btnScale = findViewById(R.id.goto_sc);
         if (!isDefined){
             key.add("C");
             key.add("C#");
@@ -54,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     String keyToTranspose = editKey.getText().toString().toUpperCase();
                     int index;
-                    if (txtResult.getText().toString().equalsIgnoreCase("result")){
+                    if (txtResult.getText().toString().equalsIgnoreCase("")){
                         index = key.indexOf(keyToTranspose);
                     } else {
                         index = key.indexOf(txtResult.getText().toString());
@@ -79,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     String keyToTranspose = editKey.getText().toString().toUpperCase();
                     int index;
-                    if (txtResult.getText().toString().equalsIgnoreCase("result")){
+                    if (txtResult.getText().toString().equalsIgnoreCase("")){
                         index = key.indexOf(keyToTranspose);
                     } else {
                         index = key.indexOf(txtResult.getText().toString());
@@ -104,8 +106,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 editKey.setText("");
-                txtResult.setText("Result");
+                txtResult.setText("");
                 txtTranspose.setText("0");
+            }
+        });
+        btnScale.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ScaleCalculator.class);
+                startActivity(intent);
+                finish();
             }
         });
     }
