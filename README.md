@@ -1,5 +1,5 @@
 # Transpose
-Transpose your music key with this apps, and find a scale with scale operator!
+Transpose your music key with this apps, and find a scale with scale calculator!
 
 Features:
 1. Transpose single key up and down.
